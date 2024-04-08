@@ -16,7 +16,7 @@ void Image::write_header()
 
 void Image::write_color(float value)
 {
-	_fluxImg << _cs.getLinColor(value) << std::endl;
+	_fluxImg << _cs.getLinColor(value) << '\n';
 }
 
 Image::~Image()
